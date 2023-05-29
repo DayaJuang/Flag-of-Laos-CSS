@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+}
+
+p {
+    font-size: 75px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0;
+}
+
+.flag {
+    position: relative;
+    border: 5px solid white;
+    background-color: #ce1126;
+    width: 900px;
+    height: 600px;
+}
+
+.flag > p {
+    color: white;
+}
+
+.flag > div {
+    position: absolute;
+    background-color: #002868; 
+    height: 50%;
+    width: 100%;
+    top: 25%;
+}
+
+.flag > div > div {
+    position: absolute;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    top: 50px;
+    left: 350px;
+}
